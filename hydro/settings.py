@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # local
     'hydro_systems',
-    'user_authentication',
     # 3rd party
     'rest_framework',
     'rest_framework.authtoken',

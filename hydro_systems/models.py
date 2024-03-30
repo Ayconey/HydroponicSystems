@@ -14,9 +14,15 @@ class HydroSystem(models.Model):
 
     def get_measurements(self):
         """
-        returning all measurements from that system
+        returns all measurements from system
         """
-        return Measurement.objects.filter(system=self)
+        return Measurement.objects.filter(system=self).order_by('-date')
+
+    def get_10_latest_measurements(self):
+        """
+        returns 10 latest measurements from system
+        """
+        return Measurement.objects.filter(system=self).order_by('-date')[:10]
 
 
 class Measurement(models.Model):
@@ -28,3 +34,7 @@ class Measurement(models.Model):
     ph = models.FloatField()
     water_temperature = models.FloatField()
     tds = models.FloatField()
+
+    @property
+    def owner(self):
+        return self.system.owner
