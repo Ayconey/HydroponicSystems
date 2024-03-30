@@ -1,6 +1,6 @@
 # HydroponicSystems
 ![HydroponicSystem](gardening.jpg)
-API for Creating and Managing Hydroponic Systems by Users.
+API for creating and managing hydroponic systems by users.
 
 Users can:
 
