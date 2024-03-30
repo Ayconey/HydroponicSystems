@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-
+from rest_framework.documentation import include_docs_urls
 urlpatterns = [
+    path('api-docs/', include_docs_urls(title='API Documentation')),
     path('admin/', admin.site.urls),
     path('hydro/',include('hydro_systems.urls')),
     path('auth/', include('dj_rest_auth.urls')),
