@@ -1,6 +1,6 @@
 # HydroponicSystems
 ![HydroponicSystem](gardening.jpg)
-API for Creating and Managing Hydroponic Systems by Users.
+API for creating and managing hydroponic systems by users.
 
 Users can:
 
@@ -35,3 +35,5 @@ To create an account, you need to provide a unique username, (optional) email, a
 ## Measurements
 - Adding measurements to your system and displaying all measurements: localhost:8000/hydro/hydro-systems/[your system's id]/measurements/
 - Deleting and updating a measurement from your system: localhost:8000/hydro/measurements/[your measurement's id]/
+## Documentation
+Documention is at localhost:8000/api-docs/ .
