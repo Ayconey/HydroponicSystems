@@ -11,7 +11,7 @@ Users can:
 - Retrieve information about their systems and measurements.
 
 # Accessing the Application
-The application can be downloaded or accessed through the browser at the following address:
+The application can be downloaded or accessed through the browser at [Here](http://project-hydro.mateuszsobiech.com:8000/) .
 ## Local Installation
 1. Download the GitHub repository.
 2. If you don't have Docker Desktop, download it.
@@ -28,7 +28,7 @@ User authentication and authorization are done using dj_rest_auth.
 
 - Registration is at the endpoint: localhost:8000/auth/registration/.
 To create an account, you need to provide a unique username, (optional) email, and password twice. After successful registration, you receive an authentication token.
-- Login is at the endpoint: localhost:8000/auth/. To log in, you need to provide the username, email (optional), and password.
+- Login is at the endpoint: localhost:8000/auth/login/. To log in, you need to provide the username, email (optional), and password.
 ## Hydroponic System
 - List of user's hydroponic systems and adding a new system: localhost:8000/hydro/hydro-systems/
 - Updating, deleting, displaying system details along with the 10 latest measurements: localhost:8000/hydro/hydro-systems/[your system's id]/
