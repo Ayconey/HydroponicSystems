@@ -22,7 +22,7 @@ The application can be downloaded or accessed through the browser at [Here](http
 After this step, a PostgreSQL database should be set up at localhost:5432 along with the API application at localhost:8000.
 
 # Description of Endpoints
-The entire description is provided under localhost.
+The entire description use localhost as examples.
 ## Login and Registration
 User authentication and authorization are done using dj_rest_auth.
 
