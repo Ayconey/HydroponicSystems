@@ -11,7 +11,6 @@ Users can:
 - Retrieve information about their systems and measurements.
 
 # Accessing the Application
-The application can be downloaded or accessed through the browser at [Here](http://project-hydro.mateuszsobiech.com:8000/) .
 ## Local Installation
 1. Download the GitHub repository.
 2. If you don't have Docker Desktop, download it.
